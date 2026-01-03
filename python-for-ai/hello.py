@@ -107,3 +107,57 @@ elif(need_coffee.lower()=="no"):
     print("Oh! That's fine.")
 else:
     print("please say \"yes\" or \"no\"")   
+
+#&------------------------------------------------------------------------------------------------------
+
+#* for loop 
+
+for i in range(0, 5):
+    print(i)
+    
+print()
+    
+for i in range(0, 10, 3):
+    print(i)
+    
+print()
+
+for i in range(5, 0, -1):
+    print(i)
+ 
+print()
+   
+str = "rinkal"
+for i in str:
+    print(i)
+   
+print()
+
+li = ["rinkal", "krina", "mahi"]
+for i in li:
+    print(i)
+    
+print()
+ 
+print(5 in range(1, 10))
+print(5 in range(1, 5))
+
+print()
+
+#&------------------------------------------------------------------------------------------------------
+
+#* while loop
+
+i=0
+
+while i<=5:
+    print(i)
+    i=i+1
+    
+print()
+
+j=10
+
+while j>=5:
+    print(j)
+    j=j-1
