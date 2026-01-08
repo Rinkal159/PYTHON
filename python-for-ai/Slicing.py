@@ -12,9 +12,9 @@
 #* On list:
 list = [1,2,3,4,5,6,7,8,9,10]
 
-print(list[1:5]) #1 to 5
+print(list[1:5]) #1 to 4
 print(list[5:]) #5 to all
-print(list[:5]) #0 to 5
+print(list[:5]) #0 to 4
 
 print(list[:]) #shallow copy
 print(list[::-1]) #reverse a list
