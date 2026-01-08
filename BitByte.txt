@@ -1,0 +1,13 @@
+* 3 byte = white
+meaning
+rgb(255, 255, 255) = white, because every section of rgb holds one byte(8 bits).
+because
+
+128  64  32  16  8  4  2  1 
+ 1    1   1   1  1  1  1  1
+
+it sums up to 255, and it is 8 bits meaning 1 byte, that is why every rgb section is equal to one byte or less..
+
+* 3 == 7
+  3 means our three fingers
+  7 means our three fingers too! 111 in binary.
