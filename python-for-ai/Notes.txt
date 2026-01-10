@@ -1,0 +1,23 @@
+* Module vs Package
+* _________________
+
+→ Module is single py file, and package is the folder conaining multiple modules.
+→ Examples:
+    ^1. import math : 
+        importing math "module".
+    ^2. from math import sum : 
+        importing specific item from math "module".
+    ^3. import math as m : 
+        giving alias to that math module.
+    ^4. from math import * : 
+        importing every item from that module.
+
+&------------------------------------------------------------------------------------------------------------
+
+* requirements.txt
+* ________________
+
+→ It lists all the installed packages with versions.
+
+^→ Creating requirements.txt:
+    pip freeze > requirements.txt
