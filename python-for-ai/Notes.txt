@@ -21,3 +21,16 @@
 
 ^→ Creating requirements.txt:
     pip freeze > requirements.txt
+
+* Install packages:
+* ________________
+
+^ first select interpreter :
+    → ctrl + shift + p
+    → type : python select interpreter
+    → then choose the one that has latest version of python and has (.venv)
+
+^ second in the terminal type:
+    → "python -m pip install <package_name>"
+        python: the interpreter currently running
+        -m pip : that interpreter's pip
